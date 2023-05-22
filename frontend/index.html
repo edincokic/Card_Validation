@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Card Validation</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Card Validation System</h1>
+      <div id="messageContainer"></div>
+
+      <div id="cardValidation">
+        <form id="creditCardForm">
+          <div class="form-group">
+            <label for="cardNumber">Card Number:</label>
+            <input
+              type="text"
+              id="cardNumber"
+              required
+              placeholder="XXXX XXXX XXXX XXXX"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="expirationDate">Expiration Date:</label>
+            <input
+              type="text"
+              id="expirationDate"
+              required
+              placeholder="MM/YY"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="cvv">CVV:</label>
+            <input type="password" id="cvv" required />
+          </div>
+
+          <div class="button-container">
+            <button class="button" type="button" onclick="validateCreditCard()">
+              Validate
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

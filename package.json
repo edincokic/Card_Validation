@@ -1,0 +1,15 @@
+{
+  "name": "validation",
+  "version": "1.0.0",
+  "description": "Credit Card Validation System",
+  "scripts": {
+    "start": "node backend/server.js",
+    "frontend": "cd frontend && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
