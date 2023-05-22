@@ -1,0 +1,117 @@
+body {
+  background-image: url("pozadina.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  background-image: url("div.jpg");
+  background-size: cover;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border: 2px solid #ccc;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(236, 236, 236);
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #9f9f9f;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px rgb(113, 113, 113);
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.form-group:last-child {
+  margin-bottom: 0;
+}
+
+.success-message {
+  color: rgb(0, 240, 0);
+}
+
+.error-message {
+  color: rgb(187, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .form-group {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    margin: 10px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .form-group input {
+    font-size: 14px;
+  }
+
+  .button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
