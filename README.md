@@ -27,22 +27,16 @@ Before getting started, please make sure you have the following prerequisites in
 ### Frontend
 1. Open the `frontend` folder in your preferred code editor.
 2. Edit the `index.html` file to customize the webpage if needed.
-3. Open a command prompt or terminal in the `frontend` folder.
-4. Run the following command to install the necessary dependencies:
-npm install
-5. After the dependencies are installed, start the development server with the following command:
-npm start
-6. The Card Validation System will now be accessible at `http://localhost:3000`.
+3. Open a command prompt or terminal and navigate to the `frontend` folder.
+4. Run the following command to install the necessary dependencies: npm install
+5. After the dependencies are installed, start the development server with the following command: npm start
 
 ### Backend
 1. Open the `backend` folder in your preferred code editor.
 2. Edit the `server.js` file to modify the backend functionality if needed.
 3. Open a new command prompt or terminal in the `backend` folder.
-4. Run the following command to install the necessary dependencies:
-npm install
-5. After the dependencies are installed, start the backend server with the following command:
-node server.js
-6. The backend server will start running on `http://localhost:8080`.
+4. Run the following command to install the necessary dependencies: npm install
+5. After the dependencies are installed, start the backend server with the following command: node server.js
 
 ## Getting Started
 To start using the Card Validation System, follow these steps:
