@@ -22,10 +22,6 @@ app.post("/api/validate", (req, res) => {
 
 // Helper function to validate the credit card
 function validateCreditCard(cardNumber, expirationDate, cvv) {
-  // Implement your credit card validation logic here
-  // Return true if the card is valid, false otherwise
-
-  // Example validation logic:
   const cardNumberLength = cardNumber.length;
   const cvvLength = cvv.length;
   const firstTwoDigits = cardNumber.substring(0, 2);
